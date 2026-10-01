@@ -1,0 +1,920 @@
+{
+  "name": "IBAN Test Data",
+  "description": "One valid test IBAN per country, generated deterministically and checked with the ISO 7064 MOD-97 algorithm. None is a real account.",
+  "source": "https://stanzaapi.com/datasets/iban",
+  "license": "CC0-1.0",
+  "validity": "engine-validated",
+  "size": "small",
+  "count": 100,
+  "columns": [
+    "country_code",
+    "country_name",
+    "iban",
+    "length",
+    "bban",
+    "currency",
+    "sepa"
+  ],
+  "rows": [
+    {
+      "country_code": "AD",
+      "country_name": "Andorra",
+      "iban": "AD5786661501O0A3ELKZ7ALD",
+      "length": 24,
+      "bban": "8n12c",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "AE",
+      "country_name": "United Arab Emirates",
+      "iban": "AE325624893265605688223",
+      "length": 23,
+      "bban": "3n16n",
+      "currency": "AED",
+      "sepa": false
+    },
+    {
+      "country_code": "AL",
+      "country_name": "Albania",
+      "iban": "AL8873153271O7KSM5F8JAVJ29OA",
+      "length": 28,
+      "bban": "8n16c",
+      "currency": "ALL",
+      "sepa": false
+    },
+    {
+      "country_code": "AT",
+      "country_name": "Austria",
+      "iban": "AT029578183170814353",
+      "length": 20,
+      "bban": "16n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "AZ",
+      "country_name": "Azerbaijan",
+      "iban": "AZ93JRRD7K8JLBQG97F5QF0DJ318",
+      "length": 28,
+      "bban": "4a20c",
+      "currency": "AZN",
+      "sepa": false
+    },
+    {
+      "country_code": "BA",
+      "country_name": "Bosnia and Herzegovina",
+      "iban": "BA278275208623069787",
+      "length": 20,
+      "bban": "16n",
+      "currency": "BAM",
+      "sepa": false
+    },
+    {
+      "country_code": "BE",
+      "country_name": "Belgium",
+      "iban": "BE23902158642684",
+      "length": 16,
+      "bban": "12n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "BG",
+      "country_name": "Bulgaria",
+      "iban": "BG60HMRL956588E8F1WL7T",
+      "length": 22,
+      "bban": "4a6n8c",
+      "currency": "BGN",
+      "sepa": true
+    },
+    {
+      "country_code": "BH",
+      "country_name": "Bahrain",
+      "iban": "BH26DXWQSVLXVTBKYF4YE5",
+      "length": 22,
+      "bban": "4a14c",
+      "currency": "BHD",
+      "sepa": false
+    },
+    {
+      "country_code": "BI",
+      "country_name": "Burundi",
+      "iban": "BI5001598996185717261688110",
+      "length": 27,
+      "bban": "5n5n11n2n",
+      "currency": "BIF",
+      "sepa": false
+    },
+    {
+      "country_code": "BR",
+      "country_name": "Brazil",
+      "iban": "BR4871366004184910265463548TH",
+      "length": 29,
+      "bban": "23n1a1c",
+      "currency": "BRL",
+      "sepa": false
+    },
+    {
+      "country_code": "BY",
+      "country_name": "Belarus",
+      "iban": "BY52FXLX6806IQC9V7YH0EBIXDB5",
+      "length": 28,
+      "bban": "4c4n16c",
+      "currency": "BYN",
+      "sepa": false
+    },
+    {
+      "country_code": "CH",
+      "country_name": "Switzerland",
+      "iban": "CH41321332YMVJWSU9AMX",
+      "length": 21,
+      "bban": "5n12c",
+      "currency": "CHF",
+      "sepa": true
+    },
+    {
+      "country_code": "CR",
+      "country_name": "Costa Rica",
+      "iban": "CR52125289914510409551",
+      "length": 22,
+      "bban": "18n",
+      "currency": "CRC",
+      "sepa": false
+    },
+    {
+      "country_code": "CY",
+      "country_name": "Cyprus",
+      "iban": "CY11815765406EQM5BWTLDDZO50S",
+      "length": 28,
+      "bban": "8n16c",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "CZ",
+      "country_name": "Czechia",
+      "iban": "CZ3461699586378099729342",
+      "length": 24,
+      "bban": "20n",
+      "currency": "CZK",
+      "sepa": true
+    },
+    {
+      "country_code": "DE",
+      "country_name": "Germany",
+      "iban": "DE25227201758171874439",
+      "length": 22,
+      "bban": "18n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "DJ",
+      "country_name": "Djibouti",
+      "iban": "DJ9790683246635250292638314",
+      "length": 27,
+      "bban": "23n",
+      "currency": "DJF",
+      "sepa": false
+    },
+    {
+      "country_code": "DK",
+      "country_name": "Denmark",
+      "iban": "DK9283917459753719",
+      "length": 18,
+      "bban": "14n",
+      "currency": "DKK",
+      "sepa": true
+    },
+    {
+      "country_code": "DO",
+      "country_name": "Dominican Republic",
+      "iban": "DO10A8WD53788071086325482994",
+      "length": 28,
+      "bban": "4c20n",
+      "currency": "DOP",
+      "sepa": false
+    },
+    {
+      "country_code": "EE",
+      "country_name": "Estonia",
+      "iban": "EE716790753248584703",
+      "length": 20,
+      "bban": "16n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "EG",
+      "country_name": "Egypt",
+      "iban": "EG412890118076211110329680977",
+      "length": 29,
+      "bban": "25n",
+      "currency": "EGP",
+      "sepa": false
+    },
+    {
+      "country_code": "ES",
+      "country_name": "Spain",
+      "iban": "ES7282590092187700089249",
+      "length": 24,
+      "bban": "20n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "FI",
+      "country_name": "Finland",
+      "iban": "FI5718025368815485",
+      "length": 18,
+      "bban": "14n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "FK",
+      "country_name": "Falkland Islands",
+      "iban": "FK93IZ619287090890",
+      "length": 18,
+      "bban": "2a12n",
+      "currency": "FKP",
+      "sepa": false
+    },
+    {
+      "country_code": "FO",
+      "country_name": "Faroe Islands",
+      "iban": "FO5577344684123084",
+      "length": 18,
+      "bban": "14n",
+      "currency": "DKK",
+      "sepa": false
+    },
+    {
+      "country_code": "FR",
+      "country_name": "France",
+      "iban": "FR334562636416JJOOOZQTFLT04",
+      "length": 27,
+      "bban": "10n11c2n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "GB",
+      "country_name": "United Kingdom",
+      "iban": "GB84XDSF39285227590702",
+      "length": 22,
+      "bban": "4a14n",
+      "currency": "GBP",
+      "sepa": true
+    },
+    {
+      "country_code": "GE",
+      "country_name": "Georgia",
+      "iban": "GE27EA7367579429544523",
+      "length": 22,
+      "bban": "2a16n",
+      "currency": "GEL",
+      "sepa": false
+    },
+    {
+      "country_code": "GI",
+      "country_name": "Gibraltar",
+      "iban": "GI28UXZCTDOV4VM4YAH22QR",
+      "length": 23,
+      "bban": "4a15c",
+      "currency": "GIP",
+      "sepa": true
+    },
+    {
+      "country_code": "GL",
+      "country_name": "Greenland",
+      "iban": "GL2254012886307396",
+      "length": 18,
+      "bban": "14n",
+      "currency": "DKK",
+      "sepa": false
+    },
+    {
+      "country_code": "GR",
+      "country_name": "Greece",
+      "iban": "GR483836882V8WB8OK3VYDYSA6M",
+      "length": 27,
+      "bban": "7n16c",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "GT",
+      "country_name": "Guatemala",
+      "iban": "GT26J76IKLRU2L4I08U0V3KTGUJG",
+      "length": 28,
+      "bban": "4c20c",
+      "currency": "GTQ",
+      "sepa": false
+    },
+    {
+      "country_code": "HR",
+      "country_name": "Croatia",
+      "iban": "HR7061405594539461572",
+      "length": 21,
+      "bban": "17n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "HU",
+      "country_name": "Hungary",
+      "iban": "HU40031043712374022505949004",
+      "length": 28,
+      "bban": "24n",
+      "currency": "HUF",
+      "sepa": true
+    },
+    {
+      "country_code": "IE",
+      "country_name": "Ireland",
+      "iban": "IE48VBOB98945076157988",
+      "length": 22,
+      "bban": "4a14n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "IL",
+      "country_name": "Israel",
+      "iban": "IL595738654663440934163",
+      "length": 23,
+      "bban": "19n",
+      "currency": "ILS",
+      "sepa": false
+    },
+    {
+      "country_code": "IQ",
+      "country_name": "Iraq",
+      "iban": "IQ12UQMH154624193934475",
+      "length": 23,
+      "bban": "4a15n",
+      "currency": "IQD",
+      "sepa": false
+    },
+    {
+      "country_code": "IS",
+      "country_name": "Iceland",
+      "iban": "IS523785461773939636480399",
+      "length": 26,
+      "bban": "22n",
+      "currency": "ISK",
+      "sepa": true
+    },
+    {
+      "country_code": "IT",
+      "country_name": "Italy",
+      "iban": "IT02R5452119699XIKUL8M3N286",
+      "length": 27,
+      "bban": "1a10n12c",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "JO",
+      "country_name": "Jordan",
+      "iban": "JO77DXEV1901BUFB3RS8AZFR3G3717",
+      "length": 30,
+      "bban": "4a4n18c",
+      "currency": "JOD",
+      "sepa": false
+    },
+    {
+      "country_code": "KW",
+      "country_name": "Kuwait",
+      "iban": "KW55LBUPK9E16885DOPZTDPIAV0K5B",
+      "length": 30,
+      "bban": "4a22c",
+      "currency": "KWD",
+      "sepa": false
+    },
+    {
+      "country_code": "KZ",
+      "country_name": "Kazakhstan",
+      "iban": "KZ89063UN8MQ7HNPQJ9B",
+      "length": 20,
+      "bban": "3n13c",
+      "currency": "KZT",
+      "sepa": false
+    },
+    {
+      "country_code": "LB",
+      "country_name": "Lebanon",
+      "iban": "LB292935RZ8SJUCXW8S1GVHI8Z63",
+      "length": 28,
+      "bban": "4n20c",
+      "currency": "LBP",
+      "sepa": false
+    },
+    {
+      "country_code": "LC",
+      "country_name": "Saint Lucia",
+      "iban": "LC81HBLWRK2KM1DW1HV0WF191MZ4R6KP",
+      "length": 32,
+      "bban": "4a24c",
+      "currency": "XCD",
+      "sepa": false
+    },
+    {
+      "country_code": "LI",
+      "country_name": "Liechtenstein",
+      "iban": "LI2892589VVMTR5H418JK",
+      "length": 21,
+      "bban": "5n12c",
+      "currency": "CHF",
+      "sepa": true
+    },
+    {
+      "country_code": "LT",
+      "country_name": "Lithuania",
+      "iban": "LT540186492677723249",
+      "length": 20,
+      "bban": "16n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "LU",
+      "country_name": "Luxembourg",
+      "iban": "LU05609N5CATE0JKPNMX",
+      "length": 20,
+      "bban": "3n13c",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "LV",
+      "country_name": "Latvia",
+      "iban": "LV72UPAUDYCAMFRRS8PJE",
+      "length": 21,
+      "bban": "4a13c",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "LY",
+      "country_name": "Libya",
+      "iban": "LY39906833215727677065100",
+      "length": 25,
+      "bban": "21n",
+      "currency": "LYD",
+      "sepa": false
+    },
+    {
+      "country_code": "MC",
+      "country_name": "Monaco",
+      "iban": "MC665340413905Z50SR4CTWC541",
+      "length": 27,
+      "bban": "10n11c2n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "MD",
+      "country_name": "Moldova",
+      "iban": "MD96TGCA0SDAPTZEOHQR8IFX",
+      "length": 24,
+      "bban": "2c18c",
+      "currency": "MDL",
+      "sepa": false
+    },
+    {
+      "country_code": "ME",
+      "country_name": "Montenegro",
+      "iban": "ME06875741909099836186",
+      "length": 22,
+      "bban": "18n",
+      "currency": "EUR",
+      "sepa": false
+    },
+    {
+      "country_code": "MK",
+      "country_name": "North Macedonia",
+      "iban": "MK18340S53SW4ITPD00",
+      "length": 19,
+      "bban": "3n10c2n",
+      "currency": "MKD",
+      "sepa": false
+    },
+    {
+      "country_code": "MN",
+      "country_name": "Mongolia",
+      "iban": "MN223930645945696815",
+      "length": 20,
+      "bban": "4n12n",
+      "currency": "MNT",
+      "sepa": false
+    },
+    {
+      "country_code": "MR",
+      "country_name": "Mauritania",
+      "iban": "MR6906101415863045400852562",
+      "length": 27,
+      "bban": "23n",
+      "currency": "MRU",
+      "sepa": false
+    },
+    {
+      "country_code": "MT",
+      "country_name": "Malta",
+      "iban": "MT10EMRH05722O5KL92BD78V1AODETA",
+      "length": 31,
+      "bban": "4a5n18c",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "MU",
+      "country_name": "Mauritius",
+      "iban": "MU77YTUA7639913333658000734ONS",
+      "length": 30,
+      "bban": "4a19n3a",
+      "currency": "MUR",
+      "sepa": false
+    },
+    {
+      "country_code": "MZ",
+      "country_name": "Mozambique",
+      "iban": "MZ22345345552057308648351",
+      "length": 25,
+      "bban": "21n",
+      "currency": "MZN",
+      "sepa": false
+    },
+    {
+      "country_code": "NI",
+      "country_name": "Nicaragua",
+      "iban": "NI22WXEI79981745543726516792",
+      "length": 28,
+      "bban": "4a20n",
+      "currency": "NIO",
+      "sepa": false
+    },
+    {
+      "country_code": "NL",
+      "country_name": "Netherlands",
+      "iban": "NL46UCNO5397780809",
+      "length": 18,
+      "bban": "4a10n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "NO",
+      "country_name": "Norway",
+      "iban": "NO8835268102162",
+      "length": 15,
+      "bban": "11n",
+      "currency": "NOK",
+      "sepa": true
+    },
+    {
+      "country_code": "OM",
+      "country_name": "Oman",
+      "iban": "OM84238WNOYFEH91G4PVX6G",
+      "length": 23,
+      "bban": "3n16c",
+      "currency": "OMR",
+      "sepa": false
+    },
+    {
+      "country_code": "PK",
+      "country_name": "Pakistan",
+      "iban": "PK55NOUWOA6A8RVIMJDPMBFG",
+      "length": 24,
+      "bban": "4a16c",
+      "currency": "PKR",
+      "sepa": false
+    },
+    {
+      "country_code": "PL",
+      "country_name": "Poland",
+      "iban": "PL14663687634847370304819668",
+      "length": 28,
+      "bban": "24n",
+      "currency": "PLN",
+      "sepa": true
+    },
+    {
+      "country_code": "PS",
+      "country_name": "Palestine",
+      "iban": "PS14RWTEXZ3CT8ZGTH50YL6W1T5X0",
+      "length": 29,
+      "bban": "4a21c",
+      "currency": "ILS",
+      "sepa": false
+    },
+    {
+      "country_code": "PT",
+      "country_name": "Portugal",
+      "iban": "PT77573458557687535960198",
+      "length": 25,
+      "bban": "21n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "QA",
+      "country_name": "Qatar",
+      "iban": "QA59LBRZD92KKVMZGJ43HOM040ALG",
+      "length": 29,
+      "bban": "4a21c",
+      "currency": "QAR",
+      "sepa": false
+    },
+    {
+      "country_code": "RO",
+      "country_name": "Romania",
+      "iban": "RO47BSWVSC88NKVL3M8Q4ILE",
+      "length": 24,
+      "bban": "4a16c",
+      "currency": "RON",
+      "sepa": true
+    },
+    {
+      "country_code": "RS",
+      "country_name": "Serbia",
+      "iban": "RS62876361463601997543",
+      "length": 22,
+      "bban": "18n",
+      "currency": "RSD",
+      "sepa": false
+    },
+    {
+      "country_code": "RU",
+      "country_name": "Russia",
+      "iban": "RU09602769743142393OTUV9CV70T1L6J",
+      "length": 33,
+      "bban": "14n15c",
+      "currency": "RUB",
+      "sepa": false
+    },
+    {
+      "country_code": "SA",
+      "country_name": "Saudi Arabia",
+      "iban": "SA3369J6AVFBE07AWY1BQ8DH",
+      "length": 24,
+      "bban": "2n18c",
+      "currency": "SAR",
+      "sepa": false
+    },
+    {
+      "country_code": "SC",
+      "country_name": "Seychelles",
+      "iban": "SC10TMFW89164073541875821705XHD",
+      "length": 31,
+      "bban": "4a20n3a",
+      "currency": "SCR",
+      "sepa": false
+    },
+    {
+      "country_code": "SD",
+      "country_name": "Sudan",
+      "iban": "SD3350273996320523",
+      "length": 18,
+      "bban": "14n",
+      "currency": "SDG",
+      "sepa": false
+    },
+    {
+      "country_code": "SE",
+      "country_name": "Sweden",
+      "iban": "SE1641098802717587629575",
+      "length": 24,
+      "bban": "20n",
+      "currency": "SEK",
+      "sepa": true
+    },
+    {
+      "country_code": "SI",
+      "country_name": "Slovenia",
+      "iban": "SI08099971817445630",
+      "length": 19,
+      "bban": "15n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "SK",
+      "country_name": "Slovakia",
+      "iban": "SK4543257005558200349338",
+      "length": 24,
+      "bban": "20n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "SM",
+      "country_name": "San Marino",
+      "iban": "SM90E947128596650L9BTRL0N03",
+      "length": 27,
+      "bban": "1a10n12c",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "ST",
+      "country_name": "Sao Tome and Principe",
+      "iban": "ST15410764762043356284785",
+      "length": 25,
+      "bban": "21n",
+      "currency": "STN",
+      "sepa": false
+    },
+    {
+      "country_code": "SV",
+      "country_name": "El Salvador",
+      "iban": "SV43RYRW63120153531599193615",
+      "length": 28,
+      "bban": "4a20n",
+      "currency": "USD",
+      "sepa": false
+    },
+    {
+      "country_code": "TL",
+      "country_name": "Timor-Leste",
+      "iban": "TL542444332391301576981",
+      "length": 23,
+      "bban": "19n",
+      "currency": "USD",
+      "sepa": false
+    },
+    {
+      "country_code": "TN",
+      "country_name": "Tunisia",
+      "iban": "TN5002502902412988064076",
+      "length": 24,
+      "bban": "20n",
+      "currency": "TND",
+      "sepa": false
+    },
+    {
+      "country_code": "TR",
+      "country_name": "Turkey",
+      "iban": "TR5064180XAKD4P14A43S54QL7",
+      "length": 26,
+      "bban": "5n17c",
+      "currency": "TRY",
+      "sepa": false
+    },
+    {
+      "country_code": "UA",
+      "country_name": "Ukraine",
+      "iban": "UA42370459RZY9CL17SA149LRBACB",
+      "length": 29,
+      "bban": "6n19c",
+      "currency": "UAH",
+      "sepa": false
+    },
+    {
+      "country_code": "VA",
+      "country_name": "Vatican City",
+      "iban": "VA42715238343248953259",
+      "length": 22,
+      "bban": "18n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "VG",
+      "country_name": "British Virgin Islands",
+      "iban": "VG46XHNW0451712448224300",
+      "length": 24,
+      "bban": "4a16n",
+      "currency": "USD",
+      "sepa": false
+    },
+    {
+      "country_code": "XK",
+      "country_name": "Kosovo",
+      "iban": "XK424220952396233767",
+      "length": 20,
+      "bban": "16n",
+      "currency": "EUR",
+      "sepa": false
+    },
+    {
+      "country_code": "AD",
+      "country_name": "Andorra",
+      "iban": "AD0625871919Z3PPO16B4H66",
+      "length": 24,
+      "bban": "8n12c",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "AE",
+      "country_name": "United Arab Emirates",
+      "iban": "AE836159203443611599851",
+      "length": 23,
+      "bban": "3n16n",
+      "currency": "AED",
+      "sepa": false
+    },
+    {
+      "country_code": "AL",
+      "country_name": "Albania",
+      "iban": "AL3874832692XEDMXOKCLZXW278K",
+      "length": 28,
+      "bban": "8n16c",
+      "currency": "ALL",
+      "sepa": false
+    },
+    {
+      "country_code": "AT",
+      "country_name": "Austria",
+      "iban": "AT045507775568366581",
+      "length": 20,
+      "bban": "16n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "AZ",
+      "country_name": "Azerbaijan",
+      "iban": "AZ56TTZWGZDYTI57PLLQ6E51AYDL",
+      "length": 28,
+      "bban": "4a20c",
+      "currency": "AZN",
+      "sepa": false
+    },
+    {
+      "country_code": "BA",
+      "country_name": "Bosnia and Herzegovina",
+      "iban": "BA297216996255166179",
+      "length": 20,
+      "bban": "16n",
+      "currency": "BAM",
+      "sepa": false
+    },
+    {
+      "country_code": "BE",
+      "country_name": "Belgium",
+      "iban": "BE64630373209374",
+      "length": 16,
+      "bban": "12n",
+      "currency": "EUR",
+      "sepa": true
+    },
+    {
+      "country_code": "BG",
+      "country_name": "Bulgaria",
+      "iban": "BG78CJJP348430VBAR82Q0",
+      "length": 22,
+      "bban": "4a6n8c",
+      "currency": "BGN",
+      "sepa": true
+    },
+    {
+      "country_code": "BH",
+      "country_name": "Bahrain",
+      "iban": "BH46LYDSTFD1CDUPVG9RVC",
+      "length": 22,
+      "bban": "4a14c",
+      "currency": "BHD",
+      "sepa": false
+    },
+    {
+      "country_code": "BI",
+      "country_name": "Burundi",
+      "iban": "BI2290784003029643073314766",
+      "length": 27,
+      "bban": "5n5n11n2n",
+      "currency": "BIF",
+      "sepa": false
+    },
+    {
+      "country_code": "BR",
+      "country_name": "Brazil",
+      "iban": "BR9188320392664043699487541R6",
+      "length": 29,
+      "bban": "23n1a1c",
+      "currency": "BRL",
+      "sepa": false
+    },
+    {
+      "country_code": "BY",
+      "country_name": "Belarus",
+      "iban": "BY600HXY6843U82USG972562BOUX",
+      "length": 28,
+      "bban": "4c4n16c",
+      "currency": "BYN",
+      "sepa": false
+    },
+    {
+      "country_code": "CH",
+      "country_name": "Switzerland",
+      "iban": "CH8656025T3QUPUDBOVW9",
+      "length": 21,
+      "bban": "5n12c",
+      "currency": "CHF",
+      "sepa": true
+    }
+  ]
+}
