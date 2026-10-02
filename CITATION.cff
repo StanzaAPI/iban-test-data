@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it and link to the dataset page."
+title: "IBAN Test Data"
+abstract: "One valid test IBAN per country, generated deterministically and checked with the ISO 7064 MOD-97 algorithm. None is a real account."
+type: dataset
+license: CC0-1.0
+version: "1.0.2"
+date-released: "2026-10-01"
+authors:
+  - name: "StanzaAPI"
+    website: "https://stanzaapi.com"
+repository-code: "https://github.com/StanzaAPI/iban-test-data"
+url: "https://stanzaapi.com/datasets/iban"
